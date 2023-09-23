@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+    <title>Viale Turismo</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="header">
+        <a href="index.html" class="logo-text">Viale Turismo</a>
+        
+        <button style="display: none;" class="header__btnMenu"> <i class="fas fa-bars fa-2x"></i> <span class="sr-only"><img src="img/menuhamburguricon.png" alt="menu"></span></button>
+        
+        <nav class="header__nav">
+          <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#servicos">Serviços</a></li>
+            <li><a href="#viagens">Viagens</a></li>
+            <li><a href="#contato">Contato</a></li>  
+          </ul>
+        </nav>
+      </header>
+
+    <section class="containerproje" id="inicio">
+        <div class="slide-container active">
+            <div class="slide">
+             <div class="contentproje">
+               <h3>Viale Turismo</h3>
+               <p> Descubra o mundo com Viale Turismo!
+                Viagens inesquecíveis ao seu alcance.
+                Roteiros personalizados para cada aventura.
+                Explore novos horizontes com a Viale Turismo!</p>
+               <a href="https://ftd.com.br/" class="bntproj">Saiba mais</a>
+             </div>
+            </div>
+        </div>
+
+        <div class="slide-container">
+            <div class="slide">
+             <div class="contentproje">
+               <h3>Explore</h3>
+               <p>Aventure-se com a Viale Turismo, a melhor escolha para explorar o mundo!
+                Descubra destinos exóticos e emocionantes ao redor do globo.
+                Nossos pacotes de viagem são cuidadosamente projetados para oferecer experiências únicas.</p>
+               <a href="https://ftd.com.br/" class="bntproj">Saiba mais</a>
+            </div>
+            </div>
+        </div>
+        
+        <div class="slide-container">
+            <div class="slide">
+             <div class="contentproje">
+               <h3>Custo Beneficio</h3>
+               <p> Descubra o mundo sem pesar no bolso com a Viale Turismo!
+                Oferecemos viagens com excelente custo-benefício para você aproveitar ao máximo.
+                Nossos pacotes exclusivos garantem tarifas competitivas e promoções imperdíveis.
+                Não perca a oportunidade de explorar destinos incríveis sem comprometer suas finanças.</p>
+               <a href="https://www.escolasconectadas.org.br/cursos" class="bntproj">Saiba mais</a>
+             </div>
+            </div>
+        </div>
+
+      </div>
+        
+        <div id="prev" onclick="prev()"> < </div>
+        <div id="next" onclick="next()"> > </div>
+    </section>
+
+    <section class="middle-content row" id="servicos" data-aos="fade-up">
+        <div class="maxwidth"> 
+        <article class="col-1_4" >
+            <img src="img/icon1.png" alt="#" data-aos="fade-up">
+            <h3 class="middle-content-title" data-aos="fade-up">Viagens</h3>
+            <p data-aos="fade-up">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum</p>
+        </article>
+   
+        <article class="col-1_4">
+            <img src="img/icon2.png" alt="#" data-aos="fade-up">
+            <h3 class="middle-content-title" data-aos="fade-up">Preço barato</h3>
+            <p data-aos="fade-up"> Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum</p>
+        </article>
+
+        <article class="col-1_4">
+            <img src="img/icon3.png" alt="#" data-aos="fade-up">
+            <h3 class="middle-content-title" data-aos="fade-up">Serviço rapido</h3>
+            <p data-aos="fade-up"> Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum</p>
+        </article>
+
+        <article class="col-1_4">
+            <img src="img/icon4.png" alt="#" data-aos="fade-up">
+            <h3 class="main-content-title" data-aos="fade-up">Segurança</h3>
+            <p data-aos="fade-up"> Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum</p>
+        </article>  
+        </div>
+        </section>
+
+        <section class="ofertas" id="viagens" data-aos="fade-up">
+          <h2 class="title-of" >Pacotes em Destaques</h2>
+          <article class="card-oferta" >
+            <img src="img/sp.jpg" alt="#">
+            <h3 class="card-titles">São Paulo SP</h3>
+            <button><a href="#">Saiba Mais</a></button>
+          </article>
+
+          <article class="card-oferta" >
+            <img src="img/sc.jpg" alt="#">
+            <h3 class="card-titles">Santa Catarina SC</h3>
+            <button><a href="#">Saiba Mais</a></button>
+          </article>
+
+          <article class="card-oferta">
+            <img src="img/rj.jpg" alt="#">
+            <h3 class="card-titles">Rio de Janeiro RJ</h3>
+            <button><a href="#">Saiba Mais</a></button>
+          </article>
+
+          <article class="card-oferta" >
+            <img src="img/ps.jpeg" alt="#">
+            <h3 class="card-titles">Porto Seguro PS</h3>
+            <button><a href="#">Saiba Mais</a></button>
+          </article>
+  
+        </section>
+
+        <section class="foto" id="sobre" data-aos="fade-up">
+          <article class="foto-1">
+          <h2>Quem somos?</h2>
+          <p>
+          A Viale Turismo é uma empresa de turismo localizada em Bela Vista de Goiás. Com uma equipe apaixonada e experiente, eles oferecem serviços de alta qualidade e atendimento personalizado. A empresa oferece pacotes turísticos para destinos nacionais e internacionais, além de serviços de reserva de passagens aéreas, hospedagem e aluguel de carros. Entre em contato ja!</p>
+          <button><a href="#">Contato</a></button>
+          <button><a href="#">Saiba mais</a></button>
+         </article>
+          <article class="foto-2">
+            <img src="img/foto2.png" alt="">
+          </article>
+          </section>
+
+          <section class="localizacoes" id="contato" data-aos="fade-up">
+            <h2>Localizações</h2>
+            <article class="gps">
+             <iframe class="gps-location" src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d61056.63482559415!2d-48.99300324986438!3d-16.972598569284678!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x935f24a35fe73873%3A0x83da397cf5058518!2sBela%20Vista%20de%20Goi%C3%A1s!3m2!1d-16.9726848!2d-48.9518032!4m5!1s0x935f24a35fe73873%3A0x83da397cf5058518!2sBela%20Vista%20de%20Goi%C3%A1s%2C%20GO%2C%2075240-000!3m2!1d-16.9726848!2d-48.9518032!5e0!3m2!1spt-PT!2sbr!4v1686369241597!5m2!1spt-PT!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </article>
+            <article class="form-article">
+        
+              <form class="form" method="#" action="#" autocomplete="on">
+                <label class="label">Nome:</label>
+                <input class="field" name="name" required>
+                <label class="label">Email:</label>
+                <input class="field" name="email" required>
+                <label class="label" name="telefone">Telefone:</label>
+                <input class="field" name="telefone" type="tel" required>
+                <label class="label">Mensagem:</label>
+                <textarea class="field" name="mesage"></textarea>
+                <input name="termo de uso" class="fieldt" type="submit" value="Enviar" required>
+               </form>
+
+            </article>
+            
+          </section>
+
+          <footer class="footer">
+            <div class="container">
+                <h2 class="footer__logo">Viale Turismo</h2>
+        
+                <p>Obrigado por visitar nosso site</p>
+
+                <p>Numero para contato (62)99000-0000<br>Email para contato @exemplo@gmail.com </p>
+
+              <ul class="footer__links">
+                <li><a>Duvidas</a></li>
+                <li><a>Contato</a></li>
+                <li><a>Email</a></li>
+              </ul>
+            </div>
+        </footer>
+
+
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init({
+            duration: 1700,
+          });
+        </script>
+    <script src="js/slide.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+</html>
+
